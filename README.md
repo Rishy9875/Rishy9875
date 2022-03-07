@@ -1,0 +1,4 @@
+- 👋 Hi, I’m @Rishy9875
+- 👀 I’m interested in anything
+- 🌱 I’m currently learning basic Java
+- 📫 How to reach me runnerstube@gmail.com
