@@ -1,0 +1,55 @@
+<html>
+	<head>
+		<title>Data Collection</title>
+        <style>
+            body
+            {
+            font-family: TimesNewRoman;
+            font-size: 21px;
+            background-color: #82E0AA;
+            }
+            </style>
+	</head>
+	<body>
+		<form action="Contents.html" method="post" >
+            <label>Language:</label>
+			<select>
+				</optgroup>
+				<optgroup label="Language:">
+					<option>English</option>
+					<option>Hindi</option>
+					<option>French</option>
+                    <option>German</option>
+                    <option>Punjabi</option>
+                    <option>Other</option>
+				</optgroup>
+			</select><br><br>
+			<input type="text" placeholder="Name" required/><br>
+			<input  type="email" placeholder="Email"required /><br>
+			<input type="password" minlength="5" placeholder="Password" required/><br>
+			<input type="number" placeholder="Your age"required/><br>
+			<br>
+			<label for="gender"  required>Gender:</label><br>
+			<input type="radio" name="gen" value="female" />Female   <br>
+			<input type="radio" name="gen" value="male" />Male       <br>
+			<input type="radio" name="gen" value="Other" />Other   <br>
+			<br>
+			<label for="genre">Genre:</label><br>
+			<input type="checkbox" name="genre" value="Action and Adventure" />Action and Adventure <br>
+			<input type="checkbox" name="genre" value="Classics"/>Classics<br>
+			<input type="checkbox" name="genre" value="Comic Book or Graphic Novel."/>Comic Book or Graphic Novel.<br>
+			<input type="checkbox" name="genre" value="Detective and Mystery">Detective and Mystery <br>
+			<input type="checkbox" name="genre" value="Fantasy"/>Fantasy<br>
+			<input type="checkbox" name="genre" value="Horror"/>Horror<br>
+			<br>
+			<input type="color"/>
+			<br><br>
+			<input type="date" required/>
+			<br><br>
+			<br>
+			<button type="submit">Submit Data</button>
+			<br><br>
+			<input type="reset" value="Click here to clear all fields" />
+		</form>
+	</body>
+</html>
